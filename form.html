@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="logo" href="index.html"><img src="TBL.jpg"></a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+         <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list.html">Tentang Perpustakaan</a></li>
+            <li><a href="form.html">Form Peminjaman</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script src="mobile-navbar.js"></script>
+      <div class="form">
+      <form name="formPerpus" onsubmit="return validasi">
+<fieldset>
+<h1> PEMINJAMAN BUKU PERPUSTAKAAN </h1>
+<br>
+Nama Siswa: <input class="in" type="text" name="nama" id="nama"> <br> <br>
+Kelas: <input class="in" type="radio" name="kJurusan" value="x"> X
+<input class="in" type="radio" name="kJurusan" value="xi"> XI 
+<input class="in" type="radio" name="kJurusan" value="xii"> XII <br> <br>
+Email: <input class="in" type="email" name="email" id="email"> <br> <br>
+Jurusan: <select class="inp"name="jurusan" id="jurusan">
+<option value="aphp"> APHP </option>
+<option value="atph"> ATPH </option>
+<option value="tkj"> TKJ </option>
+<option value="dkv"> DKV </option>
+<option value="rpl"> RPL </option>
+<option value="mkt"> MKT </option>
+<option value="tpm"> TPM </option>
+<option value="tl"> TL </option>
+<option value="tkr"> TKR </option>
+<option value="tbkr"> TBKR </option> </select>
+<br> <br>
+Kategori Buku: <select class="inp" name="kBuku" id="kBuku">
+<option value="buku pelajaran"> Buku Pelajaran </option>
+<option value="novel"> Novel </option>
+<option value="biografi"> Biografi </option>
+<option value="komik"> Komik </option>
+<option value="buku jurusan"> Buku Jurusan </option>
+<option value="kamus"> Kamus </option>
+</select> <br> <br>
+Judul Buku: <input class="in" type="text" name="jBuku" id="jBuku"> <br> <br>
+No. Induk Buku: <input class="in" type="teks" name="noInduk" id="noInduk"> <br> <br>
+Tanggal Pinjam: <input class="in" type="date" name="tPinjam"> <br> <br>
+Tanggal Kembali: <input class="in" type="date" name="tKembali"> <br> <br>
+<input class="in" type="submit" name="t_submit" value="Kirim Data" onclick="validasi ()">
+<button class="kir" type="button" onclick="alert('Gracias :)')"> Click Me :D </button>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

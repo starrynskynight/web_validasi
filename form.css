@@ -1,0 +1,44 @@
+fieldset {
+    background-color: #ffc107;
+   }
+   .form {
+    font-family: centurygothic;
+    width: 500px;
+    margin: 250px auto;
+    margin-top: 100px;
+   }
+   h1 {
+   color: black;
+   font-weight: bold;
+   font-family: centurygothic;
+   border: solid 10px #212529;
+   border-radius: 10px;
+   color: white;
+   background-color: #212529;
+   text-align: center;
+   margin: 0px;
+   }
+   .in {
+   font-family: centurygothic;
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+   border: solid 5px mistyrose;
+   background-color: mistyrose;
+   margin: 0px;
+   }
+   .kir {
+   background-color: mistyrose;
+   border: solid 5px mistyrose;
+   border-radius: 10px;
+   font-family: centurygothic;
+   margin: 0px;
+   color: black;
+   }
+   .inp {
+   background-color: mistyrose;
+   border: solid 5px mistyrose;
+   border-radius: 10px;
+   font-family: centurygothic;
+   color: black;
+   margin: 0px;
+   }
